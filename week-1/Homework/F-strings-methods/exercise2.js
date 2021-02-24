@@ -1,3 +1,3 @@
 const name = " Daniel  ";
-
-console.log(message);
+message = name.trim();
+console.log(message.length);

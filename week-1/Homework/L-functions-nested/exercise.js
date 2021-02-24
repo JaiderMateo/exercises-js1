@@ -1,5 +1,12 @@
-var mentor1 = "Daniel";
-var mentor2 = "Irina";
-var mentor3 = "Mimi";
-var mentor4 = "Rob";
-var mentor5 = "Yohannes";
+
+let students = 65;
+let mentors = 35;
+let total = students + mentors;
+function Percentage(cantidad, total){
+    return Math.round((cantidad/total) * 100);
+}
+function Greetings(){
+    console.log("percentage students: " + Percentage(students, total) + "%");
+    console.log("percentage mentors: " + Percentage(mentors, total) + "%");
+}
+Greetings();
