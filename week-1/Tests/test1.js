@@ -7,3 +7,5 @@ function boolChecker(bool) {
   }
   
   boolChecker(true);
+  process.stdout.write("hello: ");
+  process.stdout.write("hello: ");

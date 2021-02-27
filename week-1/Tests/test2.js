@@ -9,4 +9,4 @@ function animo (feeling){
         return "I'm sorry, I'm still learning about feelings!"
     }
 }
-console.log(animo('happy'));
+animo(3)

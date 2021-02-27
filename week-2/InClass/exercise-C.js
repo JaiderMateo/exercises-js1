@@ -9,3 +9,6 @@ function numberChecker(num) {
     return `${num} isn't even a number :(`;
   }
 }
+console.log(numberChecker(15));
+//this function give you an aswer in function of the value 
+// that you give  to the num variable 
