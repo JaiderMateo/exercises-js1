@@ -10,6 +10,16 @@ let n = 10;
 
 function sumTillNum(num){
 	//your code here
+	let numbers = [];
+	sum = 0;
+	let i=0;
+	while(i <= 10){
+		numbers.push(i);
+		sum += i;
+		i++;
+	}
+	return (numbers.join(" + ") + " = " + sum) ;
+
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));

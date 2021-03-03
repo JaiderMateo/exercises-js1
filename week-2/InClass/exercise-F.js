@@ -1,4 +1,4 @@
-let word = 'Mateofwfwefafaefeafe';
+let word = 'Amteo';
 let type1 = "Manager";
 let type2 = "Admin";
 const vowelList ='AEIOUaeiou';
@@ -15,11 +15,10 @@ function check(word, type){
     if(type === 'Manager' || type === 'Admin'){
         console.log("user valid");
     }else 
-    if(CheckStartsCapital(word) && (word.length >= 5) && (word.length <= 10)){
+    if(CheckStartsCapital(word) && CheckVowel(word) && (word.length >= 5) && (word.length <= 10)){
         console.log("user valid");
     }else{
         console.log("user invalid");
 }
 }
-//check(word, "normal");
-console.log(CheckVowel('fsdfgh'));
+check(word, "normal");

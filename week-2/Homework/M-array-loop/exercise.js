@@ -13,3 +13,11 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+function charInArray(array){
+  for(let i = 0; i < array.length; i++){
+    if (array[i].startsWith('T')){
+      console.log(array[i]);
+    }
+}
+}
+charInArray(daysOfWeek);
