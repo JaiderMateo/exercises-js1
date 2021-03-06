@@ -15,5 +15,12 @@ function abracaFunction(yourFunc) {
   
     return abracaOutput;
   }
-  const yourFunc = (Array) => Array.sort();
-  console.log(abracaFunction(yourFunc));
+  
+  const yourFunc = function f (a){
+      return a.map(
+          function g (name){
+              return name.toUpperCase()
+            }
+            )
+  }
+console.log(abracaFunction(yourFunc));
